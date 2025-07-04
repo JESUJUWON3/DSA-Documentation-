@@ -9,3 +9,4 @@ The Kultra mega store Data analysis helped us generate answers to crucial questi
 - Drive for saving
 ### Data cleaning and  preparation 
 We loaded the data on the device to use for analysis and on the Excel sheet updated missing data before finally loading it into the SQL
+### Exploratory Data Analysis (EDA) involved the exploring of the data to answer our project questions about the data.
