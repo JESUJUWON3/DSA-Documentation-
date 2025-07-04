@@ -34,23 +34,15 @@ This suggests it’s the preferred mode for speed and reliability in delivering.
 Despite not being the most used  it racks up the highest total shipping costs across all categories — something the company should keep an eye on, especially if cost optimization is important.
 ###Data Analysis
 [download](https://1drv.ms/w/c/e7999c5408a92e2a/EenhHqKch69EupqVCVtY-IYBWjZtsl4BXEM7bWUEtRVePg?e=IBSaVQ)
-SALES (Top product category)*
-
+  ###SALES (Top product category)*
 •	Technology | 5984248.182
-
 *Query;
-
 Select Top 1 product_category, sum (sales) 
-
 AS TotalSales
-
 From kmsP_TABLE
-
 GROUP BY product_category
-
 Order by TotalSales desc
-
- 2) Top 3 regions by Sale
+###Top 3 regions by Sale
 •	West | 3597549.2755
 •	Ontario | 3063212.4795
 •	Prairie | 2837304.6015
@@ -61,7 +53,7 @@ From kmsP_table
 GROUP BY Region
 Order By TotalSales DESC
 
-2b) Bottom 3 regions  by sale
+###Bottom 3 regions  by sale
 •	Nunavut | 116376.4835
 •	Northwest Territories | 800847.3295
 •	Yukon | 975867.371
