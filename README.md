@@ -51,44 +51,24 @@ GROUP BY product_category
 Order by TotalSales desc
 
  2) Top 3 regions by Sale
-
 •	West | 3597549.2755
-
 •	Ontario | 3063212.4795
-
 •	Prairie | 2837304.6015
-
 *Query;
-
 Select top 3 Region, sum (sales)
-
 As TotalSales
-
 From kmsP_table
-
 GROUP BY Region
-
 Order By TotalSales DESC
 
-
-
 2b) Bottom 3 regions  by sale
-
 •	Nunavut | 116376.4835
-
 •	Northwest Territories | 800847.3295
-
 •	Yukon | 975867.371
-
 *Query;
-
 Select top 3 Region, sum (sales)
-
 As TotalSales
-
 From kmsP_table
-
 GROUP BY Region
-
 Order By TotalSales ASC
 
